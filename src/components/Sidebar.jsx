@@ -1,5 +1,5 @@
 import React from 'react'
-import { BarChart3, Users, TrendingUp, FileText, Zap, PieChart } from 'lucide-react'
+import { BarChart3, Users, TrendingUp, FileText, Zap, PieChart, Sparkles, Settings } from 'lucide-react'
 
 export default function Sidebar({ activePage, setActivePage }) {
   const menuItems = [
@@ -9,6 +9,11 @@ export default function Sidebar({ activePage, setActivePage }) {
     { id: 'behavior', label: 'Behavior', icon: FileText },
     { id: 'conversions', label: 'Conversions', icon: Zap },
     { id: 'reports', label: 'Reports', icon: PieChart },
+    { id: 'ai-insights', label: 'AI Insights', icon: Sparkles },
+  ]
+
+  const bottomItems = [
+    { id: 'settings', label: 'Settings', icon: Settings },
   ]
 
   return (
@@ -41,8 +46,26 @@ export default function Sidebar({ activePage, setActivePage }) {
         })}
       </nav>
 
-      <div className="pt-6 border-t border-gray-800">
-        <p className="text-xs text-gray-500">© 2024 DataPulse Analytics</p>
+      <div className="pt-6 border-t border-gray-800 space-y-2">
+        {bottomItems.map((item) => {
+          const IconComponent = item.icon
+          const isActive = activePage === item.id
+          return (
+            <button
+              key={item.id}
+              onClick={() => setActivePage(item.id)}
+              className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all ${
+                isActive
+                  ? 'bg-purple-600 text-white'
+                  : 'text-gray-400 hover:text-white hover:bg-gray-900'
+              }`}
+            >
+              <IconComponent className="w-5 h-5" />
+              <span className="font-medium">{item.label}</span>
+            </button>
+          )
+        })}
+        <p className="text-xs text-gray-500 pt-4">© 2024 DataPulse Analytics</p>
       </div>
     </div>
   )

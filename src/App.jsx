@@ -6,6 +6,8 @@ import Acquisition from './pages/Acquisition'
 import Behavior from './pages/Behavior'
 import Conversions from './pages/Conversions'
 import Reports from './pages/Reports'
+import AIInsights from './pages/AIInsights'
+import Settings from './pages/Settings'
 import Header from './components/Header'
 
 export default function App() {
@@ -26,6 +28,10 @@ export default function App() {
         return <Conversions dateRange={dateRange} />
       case 'reports':
         return <Reports dateRange={dateRange} />
+      case 'ai-insights':
+        return <AIInsights />
+      case 'settings':
+        return <Settings />
       default:
         return <Overview dateRange={dateRange} />
     }
