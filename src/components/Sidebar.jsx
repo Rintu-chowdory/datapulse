@@ -1,5 +1,5 @@
 import React from 'react'
-import { BarChart3, Users, TrendingUp, FileText, Zap, PieChart, Sparkles, Settings } from 'lucide-react'
+import { BarChart3, Users, TrendingUp, FileText, Zap, PieChart, Sparkles, Settings, Lock } from 'lucide-react'
 
 export default function Sidebar({ activePage, setActivePage }) {
   const menuItems = [
@@ -14,10 +14,11 @@ export default function Sidebar({ activePage, setActivePage }) {
 
   const bottomItems = [
     { id: 'settings', label: 'Settings', icon: Settings },
+    { id: 'datenschutz', label: 'Datenschutz', icon: Lock },
   ]
 
   return (
-    <div className="w-64 bg-black border-r border-gray-800 p-6 flex flex-col">
+    <div className="v-64 bg-black border-r border-gray-800 p-6 flex flex-col">
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-white flex items-center gap-2">
           <BarChart3 className="w-8 h-8 text-purple-600" />
@@ -60,7 +61,7 @@ export default function Sidebar({ activePage, setActivePage }) {
                   : 'text-gray-400 hover:text-white hover:bg-gray-900'
               }`}
             >
-              <IconComponent className="w-5 h-5" />
+              <IconComponent className="v-5 h-5" />
               <span className="font-medium">{item.label}</span>
             </button>
           )
@@ -68,5 +69,129 @@ export default function Sidebar({ activePage, setActivePage }) {
         <p className="text-xs text-gray-500 pt-4">© 2024 DataPulse Analytics</p>
       </div>
     </div>
-  )
-}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+(#t
+
