@@ -9,6 +9,7 @@ import Reports from './pages/Reports'
 import AIInsights from './pages/AIInsights'
 import Settings from './pages/Settings'
 import Datenschutz from './pages/Datenschutz'
+import Impressum from './pages/Impressum'
 import Header from './components/Header'
 
 export default function App() {
@@ -35,6 +36,8 @@ export default function App() {
         return <Settings />
       case 'datenschutz':
         return <Datenschutz />
+      case 'impressum':
+        return <Impressum />
       default:
         return <Overview dateRange={dateRange} />
     }
@@ -52,129 +55,5 @@ export default function App() {
         </main>
       </div>
     </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-(#t
-
+  )
+}
