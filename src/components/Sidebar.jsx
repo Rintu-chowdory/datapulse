@@ -1,5 +1,5 @@
 import React from 'react'
-import { BarChart3, Users, TrendingUp, FileText, Zap, PieChart, Sparkles, Settings, Lock } from 'lucide-react'
+import { BarChart3, Users, TrendingUp, FileText, Zap, PieChart, Sparkles, Settings, Lock, FileCheck } from 'lucide-react'
 
 export default function Sidebar({ activePage, setActivePage }) {
   const menuItems = [
@@ -15,6 +15,7 @@ export default function Sidebar({ activePage, setActivePage }) {
   const bottomItems = [
     { id: 'settings', label: 'Settings', icon: Settings },
     { id: 'datenschutz', label: 'Datenschutz', icon: Lock },
+    { id: 'impressum', label: 'Impressum', icon: FileCheck },
   ]
 
   return (
@@ -69,129 +70,5 @@ export default function Sidebar({ activePage, setActivePage }) {
         <p className="text-xs text-gray-500 pt-4">© 2024 DataPulse Analytics</p>
       </div>
     </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-(#t
-
+  )
+}
