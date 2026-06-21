@@ -70,7 +70,7 @@ export default function Impressum() {
         </div>
         <div className="space-y-4 text-gray-300">
           <p>
-            DataPulse Analytics bemüht sich, die Informationen auf dieser Website aktuell und fehlerfrei zu halten. Trozdem körnen Fehler und Unklarheiten nicht völlig ausgeschlossen werden. DataPulse Analytics übernimmt keine Haftung für die Aktualität, Rich�igkeit, Vollständigkeit oder Qualität der bereitgestellten Informationen.
+            DataPulse Analytics bemüht sich, die Informationen auf dieser Website aktuell und fehlerfrei zu halten. Trotzdem können Fehler und Unklarheiten nicht völlig ausgeschlossen werden. DataPulse Analytics übernimmt keine Haftung für die Aktualität, Richtigkeit, Vollständigkeit oder Qualität der bereitgestellten Informationen.
           </p>
           <p>
             Haftungsansprüche gegen DataPulse Analytics, die sich auf Schäden materieller oder ideeller Art beziehen, welche durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind ausgeschlossen, sofern seitens DataPulse Analytics kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.
@@ -85,7 +85,7 @@ export default function Impressum() {
         <h2 className="text-xl font-bold text-white mb-4">Urheberrecht</h2>
         <div className="space-y-4 text-gray-300">
           <p>
-            Die durch DataPulse Analytics erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervievfacl�igung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des Autors oder Erstellers.
+            Die durch DataPulse Analytics erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des Autors oder Erstellers.
           </p>
           <p>
             Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
